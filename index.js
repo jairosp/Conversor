@@ -20,7 +20,7 @@ function display(){
     displayer.textContent = text;
     displayer.style.fontSize = '20px';
     displayer.style.padding = '20px';
-    displayer.style.paddingTop = 5px
+    displayer.style.paddingTop = '5px';
     result.appendChild(displayer);
     return false;
 }

@@ -23,9 +23,9 @@ header h1{
     color: white;
 }
 main{
+    height: 80vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 main .first-title{
@@ -87,4 +87,27 @@ main #result{
 main #result h2 {
     padding: 20px;
     text-align: center;
+}
+
+footer{
+    background: black;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li a{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: white;
+}
+footer ul li img{
+    height: 16px;
+    width: 16px;
+
 }
