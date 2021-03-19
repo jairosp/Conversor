@@ -32,6 +32,9 @@ main .first-title{
     margin-top: 100px;
     margin-bottom: 50px;
     font-size: 1.6rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
 }
 main form{
     display: flex;
