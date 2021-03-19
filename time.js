@@ -7,6 +7,9 @@ const fromMinutesToSeconds = (n) => n*60;
 const obtenerDecimal = (n) => n - Math.floor(n);
 
 const fullSet = (millonesDeAnios) => {
+    if (millonesDeAnios > 13800000000){
+        return 
+    }
     const days = fromMaToYears(millonesDeAnios);
     const hours = fromDaysToHour(obtenerDecimal(days));
     const minutes = fromHoursToMinutes(obtenerDecimal(hours));

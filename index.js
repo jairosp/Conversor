@@ -13,14 +13,14 @@ function display(){
     const obj = fullSet(input.value);
     console.log(obj);
     const text = `  
-        Dias: ${obj.Dias},
+        Días: ${obj.Dias},
         Horas: ${obj.Horas},
         Minutos: ${obj.Minutos},
         Segundos: ${obj.Segundos}`
     displayer.textContent = text;
     displayer.style.fontSize = '20px';
     displayer.style.padding = '20px';
-    displayer.style.paddingTop = '5px';
+    displayer.style.paddingTop = 5px
     result.appendChild(displayer);
     return false;
 }
